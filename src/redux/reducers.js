@@ -1,3 +1,4 @@
+//暴露多个reducer
 import {combineReducers} from 'redux'
 function aa(prevent=1,action){
     switch(action.type){
